@@ -1,0 +1,52 @@
+body{
+    box-sizing:border-box;
+}
+
+
+.dropdown{
+    position:relative;
+   
+}
+.dropbtn{
+    padding:10px 30px;
+    font-size: 14px;
+  
+}
+#dropcontent{
+    position:absolute;
+    z-index:1;
+}
+#dropcontent a{
+    display: block;
+    font-size: 10px;
+    background-color: aquamarine;
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+
+}
+.dropdownbtn{
+    display: inline-block;
+    margin:120px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
+
+}
+.secondbtn{
+    padding:10px 30px;
+    font-size: 14px;
+  
+   
+}
+#content{
+    position:absolute;
+    z-index:1;
+}
+#content a{
+    display: block;
+    font-size: 10px;
+    background-color: aquamarine;
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+
+}
